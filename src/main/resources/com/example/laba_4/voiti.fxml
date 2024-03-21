@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #D8DEE4;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laba_4.controllers.VoitiController">
+   <children>
+      <AnchorPane layoutY="54.0" prefHeight="346.0" prefWidth="700.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Button fx:id="voiti_registrButton" layoutX="325.0" layoutY="237.0" mnemonicParsing="false" style="-fx-background-color: #D8DEE4;" text="Регистрация">
+               <font>
+                  <Font name="GOST Common" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <TextField fx:id="voiti_login" layoutX="147.0" layoutY="129.0" prefHeight="30.0" prefWidth="286.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #C4C4C4; -fx-background-radius: 0;">
+               <font>
+                  <Font name="GOST Common" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <Label layoutX="79.0" layoutY="134.0" text="Логин">
+               <font>
+                  <Font name="GOST Common" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="voiti_password" layoutX="147.0" layoutY="177.0" prefHeight="30.0" prefWidth="286.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #C4C4C4; -fx-background-radius: 0;">
+               <font>
+                  <Font name="GOST Common" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextField>
+            <Label layoutX="77.0" layoutY="184.0" text="Пароль">
+               <font>
+                  <Font name="GOST Common" size="15.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="65.0" layoutY="87.0" prefHeight="3.0" prefWidth="378.0" style="-fx-background-color: #D8DEE4;" />
+            <Label layoutX="79.0" layoutY="55.0" text="Авторизация">
+               <font>
+                  <Font name="GOST Common" size="25.0" />
+               </font>
+            </Label>
+            <Button fx:id="voiti_voitiButton" layoutX="248.0" layoutY="237.0" mnemonicParsing="false" style="-fx-background-color: #D8DEE4;" text="Войти">
+               <font>
+                  <Font name="GOST Common" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label fx:id="voiti_error" layoutX="77.0" layoutY="215.0" text=" " textFill="RED">
+               <font>
+                  <Font name="GOST Common" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="31.0" layoutY="35.0" text="Автомастерская &quot;Карбюратор&quot;">
+         <font>
+            <Font name="Furore" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
